@@ -1,0 +1,48 @@
+{
+  "name": "taskmaster",
+  "version": "1.0.0",
+  "description": "Full Stack Task Management Application with Authentication",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "task-management",
+    "todo",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "authentication"
+  ],
+  "author": "mosreaty1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-validator": "^7.0.1",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mosreaty1/taskmaster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mosreaty1/taskmaster/issues"
+  },
+  "homepage": "https://github.com/mosreaty1/taskmaster#readme"
+}

@@ -9,14 +9,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "express-rate-limit": "^6.10.0",
-    "express-validator": "^7.2.1",
+    "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.5.0"
+    "express-validator": "^7.0.1",
+    "express-rate-limit": "^7.1.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
@@ -24,12 +24,6 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": [
-    "task-management",
-    "nodejs",
-    "express",
-    "mongodb"
-  ],
-  "author": "Your Name",
+  "author": "mosreaty1",
   "license": "MIT"
 }
